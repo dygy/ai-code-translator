@@ -41,7 +41,7 @@ export const CodeBlock: FC<Props> = ({
         editable={editable}
         value={code}
         className="overflow-auto resize-y"
-        height="500px"
+        height="40vh"
         extensions={[StreamLanguage.define(go)]}
         theme={tokyoNight}
         onChange={(value) => onChange(value)}
